@@ -1,6 +1,6 @@
 # Meta (Facebook & Instagram) Ad Performance Dashboard
 
-![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=Power%20BI&logoColor=black)
+![Power BI](Media/Instagram.png)
 
 ## Project Overview
 
@@ -36,12 +36,14 @@ Using **Microsoft Power BI**, I transformed raw ad event logs into an interactiv
 
 ### 1. Advanced Data Modeling (Snowflake Schema)
 Instead of a flat file, I designed a normalized data model to ensure performance and accuracy:
+![Data Model](Media/Data_Model.png)
 * **Fact Table:** `Ad_Events` (Contains granular transactions: Impressions, Clicks, Purchases).
 * **Dimension Tables:** `Ads`, `Campaigns`, `Users` (Demographics), `Calendar` (Date Intelligence).
 * **Relationships:** Established One-to-Many relationships to enable accurate filtering.
 
 ### 2. Complex DAX Calculations
 I implemented custom measures to calculate standard industry metrics, not just sums and counts:
+![DAX Measures](Media/KPIs.png)
 * **CTR (Click-Through Rate):** `DIVIDE(Total Clicks, Total Impressions, 0)`
 * **Conversion Rate:** `DIVIDE(Total Purchases, Total Clicks, 0)`
 * **Engagement Metrics:** Aggregating likes, comments, and shares to gauge brand sentiment.
@@ -55,15 +57,15 @@ I implemented custom measures to calculate standard industry metrics, not just s
 
 ## Dashboard Screenshots
 
-*(Please replace these links with actual screenshots of your dashboard)*
+![Dashboard Overview](Media/Facebook.png) ![Dashboard Overview](Media/Instagram.png) ![Dashboard Overview](Media/Tooltip.png)
 
 ### 1. Home Dashboard (Facebook Analysis)
 *High-level view of Total Spend, Impressions, and hourly trends.*
-![Dashboard Screenshot 1](LINK_TO_YOUR_IMAGE_HERE)
+![Facebook Screenshot ](Media/Facebook.png)
 
 ### 2. Demographic & Geo Analysis
 *Breakdown of performance by Age Group, Gender, and Map visualization.*
-![Dashboard Screenshot 2](LINK_TO_YOUR_IMAGE_HERE)
+![Field Charts ](Media/Field_Charts.png)
 
 ---
 
