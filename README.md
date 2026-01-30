@@ -60,12 +60,14 @@ I implemented custom measures to calculate standard industry metrics, not just s
 ![Dashboard Overview](Media/Facebook.png) ![Dashboard Overview](Media/Instagram.png) ![Dashboard Overview](Media/Tooltip.png)
 
 ### 1. Home Dashboard (Facebook Analysis)
-*High-level view of Total Spend, Impressions, and hourly trends.*
+**High-level view of Total Spend, Impressions, and hourly trends.**
+
 ![Facebook Screenshot ](Media/Facebook.png)
 
 ### 2. Demographic & Geo Analysis
-*Breakdown of performance by Age Group, Gender, and Map visualization.*
-![Field Charts ](Media/Field_Charts.png)
+**Breakdown of performance by Age Group, Gender, and Map visualization.**
+
+![Field Charts](Media/Field_charts.png)
 
 ---
 
@@ -83,7 +85,7 @@ The data used in this project simulates real-world marketing logs:
 
 1.  Clone this repository.
 2.  Open the `.pbix` file in **Microsoft Power BI Desktop**.
-3.  *Note:* If the data source path breaks, go to `Transform Data` > `Data Source Settings` and change the source to the `Data/` folder provided in this repo.
+3.  *Note:* If the data source path breaks, go to `Transform Data` > `Data Source Settings` and change the source to the `Dataset/` folder provided in this repo.
 
 ---
 
